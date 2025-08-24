@@ -28,8 +28,9 @@ scikit-learn
 # Web App
 streamlit
 
-# 🆕 Required for document loaders, FAISS, etc.
+# Document loaders, vector stores, etc.
 langchain-community
-
-# 🆕 Vector store (choose CPU version for compatibility)
 faiss-cpu
+
+# 🆕 Required for PDF loading
+pypdf
